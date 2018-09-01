@@ -48,7 +48,7 @@ public class AquacultureItems {
     public static final SubItem treasureChest = new ItemTreasureChest(metaLootItem).setUnlocalizedName("TreasureChest").setTextureName("aquaculture:TreasureChest").setCreativeTab(Aquaculture.tab);
     public static final SubItem neptunesBounty = new ItemNeptunesBounty(metaLootItem).setUnlocalizedName("NeptunesBounty").setTextureName("aquaculture:NeptunesBounty").setCreativeTab(Aquaculture.tab);
     public static final ItemFish fish = (ItemFish) new ItemFish().setUnlocalizedName("Fish").setCreativeTab(Aquaculture.tab);
-    private static ToolMaterial neptuniumEnum = EnumHelper.addToolMaterial("Neptunium", 3, 2500, 9F, 6F, 15);
+    private static ToolMaterial neptuniumEnum = EnumHelper.addToolMaterial("Neptunium", 8, 3072, 9F, 4.5F, 15);
     public static final Item neptuniumPickaxe = new AquaItemPickaxe(neptuniumEnum).setUnlocalizedName("NeptuniumPickaxe").setCreativeTab(Aquaculture.tab);
     public static final Item neptuniumShovel = new AquaItemSpade(neptuniumEnum).setUnlocalizedName("NeptuniumShovel").setCreativeTab(Aquaculture.tab);
     public static final Item neptuniumAxe = new AquaItemAxe(neptuniumEnum).setUnlocalizedName("NeptuniumAxe").setCreativeTab(Aquaculture.tab);
